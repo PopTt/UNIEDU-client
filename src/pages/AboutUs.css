@@ -1,0 +1,132 @@
+#top{
+    background-image: url('../resources/images/UniEdu1.png'); 
+    background-size:cover;
+    position: relative;
+   
+    
+}
+
+#taggbox{
+    padding: 100px;
+    width: 100%;
+    height: 45vw;
+    overflow:auto;
+    border:none;
+}
+
+#title{
+    padding: 200px;
+    padding-top: 100px;
+    text-align: center;
+    font-family:fantasy;
+    background: linear-gradient(to right, rgb(56, 56, 77) 30%, rgb(123, 123, 197) 50% );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+}
+
+#edu_imp {
+    cursor: pointer;
+    text-align: center;
+}
+
+#selection{
+    display: flex;
+    text-align: center;
+   
+}
+#history,#founders,#locations{
+    cursor: pointer;
+}
+#history:hover,#founders:hover,#locations:hover {
+    transform: scale(1.08, 1.08);
+    transition: all 0.5s ease-in-out;
+  }
+#show{
+     background-color: rgb(209, 236, 245);
+     padding-bottom: 500px;
+}
+#ourhistory,#ourfounders,#ourbranches{
+    display: none;
+    text-align: center;
+}
+#img{ 
+    margin: 50px;
+    cursor: pointer;
+}
+#img:hover::after{
+    background-image: url('https://i.pinimg.com/474x/63/cb/74/63cb74c62c563351d1fbac26edf3416c.jpg') center no-repeat;
+    background-size: 50px;
+}
+
+#img:hover {
+    opacity: 0.6;
+    transform: scale(1.06, 1.06);
+    transition: all 0.5s ease-in-out;
+}
+
+#findloc, #loc{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#showsel, #showkua, #showpera,#showjoh,#showpah,#showperl{
+    color: lightcoral;
+    font-weight: bold;
+    padding: 50px;
+    font-size: 30px;
+    display: none;
+}
+#loc_t{
+    border-collapse:separate;
+    border-spacing:15px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: auto;
+    width: 100%;
+    height: 100%;
+    
+}
+#v_h{
+    text-align: center;
+}
+
+#aids {
+    display: none;
+}
+
+#edu_imp:hover{
+    font-size: 30px;
+    color: red;
+}
+
+.aboutus__video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    #v_h {
+      width: 100%;
+      height: 100%;
+    }
+    #title{
+        padding: 50px;
+        font-size: 50px;
+    }
+    #top{
+        width: 100%;
+        height: 100%;
+    }
+    #selection{
+        text-align:left;
+    }
+    #img{ 
+        width: 70%;
+        height: 70%;
+        
+        
+    }
+}

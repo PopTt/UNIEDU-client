@@ -1,0 +1,11 @@
+.enrollCourse__container {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url('../resources/images/background5.jpg');
+}

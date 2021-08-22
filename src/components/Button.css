@@ -1,0 +1,35 @@
+:root {
+    --primary: rgb(0, 0, 0);
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn__original {
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+}
+
+.btn__outline {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.medium__size {
+    padding: 10px 24px;
+    font-size: 20px;
+}
+
+.large__size {
+    padding: 18px 28px;
+    font-size: 20px;
+}
